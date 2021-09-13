@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang = "ru">
+    <head>
+        <meta charset="UTF-8">  
+        <title>Задание по web</title>
+    </head>
+    <body>
+        <ol>
+            <li>Ссылка на <a href = "http://example.com">example.com</a></li>
+            <li>Ссылка на <a href = "https://example.com">example.com</a> в протоколе https</li>
+            <li>Ссылка на <a href = "ftp://example.com/myfile.zip">файл на сервере FTP</a> без авторизации</li>
+            <li>Ссылка на <a href = "ftp://user:password@example.com/myfile.zip">файл на сервере FTP</a> с авторизацией</li>
+            <li>Ссылка на <a href = "https://ru.wikipedia.org/wiki/Стеллерова_черноголовая_голубая_сойка#Описание">фрагмент другой страницы</a></li>
+            <li>Ссылка на <a href = "#name"> фрагмент этой страницы</a></li>
+            <li><a href = "https://ru.wikipedia.org/w/index.php?title=Стеллерова_черноголовая_голубая_сойка&veaction=edit&section=0">Ссылка с двумя параметрами в URL</a></li>
+            <li></li>
+            <li><a>Ссылка без href</a></li>
+            <li><a href >Ссылка с пустым href</a></li>
+            <li><a href = "http://example.com" rel = "nofollow">Ссылка</a>, по которой запрещен переход поисковикам</li>
+            <li><noindex><a href = "http://example.com" >Ссылка</a>, запрещённая для индексации поисковиками<noindex></li>
+            <li>Контекстная ссылка внутри текста:<br />Стеллерова черноголовая голубая сойка — певчая птица из семейства <a href = "https://ru.wikipedia.org/wiki/Врановые">врановых</a> (Corvidae). Обитает в Северной Америке. Символ Британской Колумбии.</li>
+            <li>Ссылка-картинка:<br /><a href = "https://ru.wikipedia.org/wiki/Стеллерова_черноголовая_голубая_сойка"><img alt = "Сойка" src = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Steller%27s_Jay_DSC6012.jpg/1024px-Steller%27s_Jay_DSC6012.jpg" height = "300" width = "500"></a></li>
+            <li></li>
+            <li>Относительная<a href = "./example.html"> ссылка </a>на страницу в текущем каталоге</li>
+            <li>Относительная<a href = "./about/example.html"> ссылка </a>на страницу в каталоге about</li>
+            <li>Относительная<a href = "../example.html"> ссылка </a>на страницу в каталоге уровнем выше текущего</li>
+            <li>Относительная<a href = "../../example.com"> ссылка </a>на страницу в каталоге двумя уровнями выше</li>
+            <li>Сокращённая<a href = "/" > ссылка </a>на главную страницу</li>
+            <li>Cокращенная<a href = "/example.html"> ссылка </a>на внутреннюю страницу</li>
+        </ol>
+        <h2>Форма</h2>
+        <form>
+            <label>
+                Введите имя:
+                <input type = "text" id = "name"><br />
+            </label>
+            <label>
+                Введите почту:
+                <input type = "email"><br />
+            </label>
+            <label>
+                Введите дату рождения:
+                <input type = "date"><br />
+            </label>
+            <label>
+                Выберете пол:
+                <input type = "radio" name = "gender" value = "male">Мужской
+                <input type = "radio" name = "gender" value = "female">Женский<br />
+            </label>
+            <label>
+                Ваше количество конечностей:
+                <input type = "radio" name = "limb" value = "2">2
+                <input type = "radio" name = "limb" value = "3">3
+                <input type = "radio" name = "limb" value = "4">4<br />
+            </label>
+            <label>
+                Выберете ваши сверхспособности (доступен множественный выбор) <br />
+                <input type = "checkbox" name = "abilities" value = "fly">Левитация <br />
+                <input type = "checkbox" name = "abilities" value = "immortal">Бессмертие <br />
+                <input type = "checkbox" name = "abilities" value = "through walls">Прохождение сквозь стены<br />
+            </label>
+            <label>
+                Введите свою биографию:<br />
+                <textarea name = "biography" rows = "15" cols = "50"></textarea><br />
+            </label>
+            <label>
+                С контрактом ознакомлен
+                <input type = "checkbox" name = "approval" value = "agree"><br />
+            </label>
+            <label>
+                <input type = "submit">
+            </label>
+        </form>
+    </body>
+</html>
