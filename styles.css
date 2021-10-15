@@ -12,7 +12,10 @@ header
   vertical-align:middle;
   border-radius: 25px;
 }
-
+#headest
+{
+margin: 50px 100px 20px 200px;	
+}
 #logo {
   float:left;
   display: inline-block;
@@ -20,7 +23,10 @@ header
   width: 150px;
   border-radius: 10px;
 }
-
+.tablet
+{
+background-color: #006600;
+}
 .name
 {
     text-align: justify;
