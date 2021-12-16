@@ -97,13 +97,6 @@ footer
   vertical-align: center;
   border-radius: 5px;
 }
-
-#ptic
-{
-  width: 400px;
-  height: 400px;
-}
-
 body 
 {
   background-image: url(https://img5.goodfon.ru/wallpaper/nbig/2/8f/tekstura-chernyi-fon-seryi-uzor-ornament-vintazh-oboi.jpg);
@@ -162,7 +155,7 @@ a
 	{
 		font-size: 1em;
 	}
-	nav{
+     	nav{
 		font-size: 1.2em;
 	}
 	.header_table{
