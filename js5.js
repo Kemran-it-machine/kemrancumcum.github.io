@@ -4,18 +4,18 @@ function click1() {
     let result = document.getElementById("result");
     let toPrice = price[0].value;
     let toCount = count[0].value;
-    let flag1488 = toCount.match(/^\d+$/);
-    let flag228 = toPrice.match(/^\d+$/);
-    if(flag228 !== null && flag1488 !== null) {
+    let dag = toCount.match(/^\d+$/);
+    let che = toPrice.match(/^\d+$/);
+    if(che !== null && dag !== null) {
     result.innerHTML = parseInt(price[0].value) * parseInt(count[0].value);
     }
-    else if(flag228 === null && flag1488 !== null ){
+    else if(che === null && dag !== null ){
     alert("Введите число в поле - цена !");
     }
-    else if(flag1488 === null && flag228 !== null) {
+    else if(dag === null && che !== null) {
       alert("Введите число в поле - количество !");
     }
-    else if(flag228 === null && flag1488 === null) {
+    else if(che === null && dag === null) {
       alert("Вводите числа в оба поля !");
     }
     return false;
