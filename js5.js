@@ -10,13 +10,13 @@ function click1() {
     result.innerHTML = parseInt(price[0].value) * parseInt(count[0].value);
     }
     else if(flag228 === null && flag1488 !== null ){
-    result.innerHTML = "Введите число в поле - цена !";
+    alert("Введите число в поле - цена !");
     }
     else if(flag1488 === null && flag228 !== null) {
-      result.innerHTML = "Введите число в поле - количество !";
+      alert("Введите число в поле - количество !");
     }
     else if(flag228 === null && flag1488 === null) {
-      result.innerHTML = "Вводите числа в оба поля !";
+      alert("Вводите числа в оба поля !");
     }
     return false;
   }
