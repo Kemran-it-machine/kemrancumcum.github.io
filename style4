@@ -1,0 +1,82 @@
+body{
+     background-image: url(https://img5.goodfon.ru/wallpaper/nbig/2/8f/tekstura-chernyi-fon-seryi-uzor-ornament-vintazh-oboi.jpg);
+    font-family: serif, "Times new Roman";
+    font-size: 20px; 
+}
+header {
+    width: 100%;
+      height: 180px;
+       background-color: #CCCCFF;
+       border-bottom: 5px solid #3B0101;
+       border-radius: 25px;
+}
+h1{
+
+    font-family: serif, Times new Roman;
+	color: #dcf1fa;
+    font-weight: bold;
+}
+h2, h3, h4
+{
+	font-family: serif, Times new Roman;
+	color: black;
+}
+nav 
+{
+  height: 100 px;
+  width:960px;
+  border: 7px groove #0e688f;
+  background-color: #75c1ff;
+  margin: auto;
+  font-size: 1.3em;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+main
+{
+                     max-width: 960px;
+	margin: 0 auto;
+	background-color: #CCCCFF;
+	font-color: red;
+	border-radius: 25px;
+}
+.img-ref{
+    width: 20rem;
+}
+.grey-div
+{
+	width: 100%;
+}
+
+footer {
+	width: 100%;
+	height: 45px;
+	padding: 14px 13px 10px 19px;	
+                     background-color: #CCCCFF;
+                     border-radius: 5px;
+}
+.header_table 
+{
+    background-color: #006600;
+    border: 1px solid black;
+}
+tr 
+{
+  background-color: #00FF66;
+  border-bottom: 1px solid #000;
+}
+
+tr td 
+{
+  border: 1px solid black;
+}
+ .copyrate{
+    font-size: 1.4em;
+}
+#imagelogo
+{
+ height: 120px;
+  width: 150px;
+  border-radius: 10px;
+}
