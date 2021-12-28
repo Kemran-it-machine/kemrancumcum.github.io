@@ -1,35 +1,6 @@
-.body{
-    display: flex;
-    flex-flow: column wrap;
+body{
     font-family: SFProDisplay-Regular; 
     background-image: url(https://img5.goodfon.ru/wallpaper/nbig/2/8f/tekstura-chernyi-fon-seryi-uzor-ornament-vintazh-oboi.jpg);
     color:whitesmoke;
-    margin-left: 1%;
-    margin-top: 1%;
-    
   }
-  form{
-      font-size: 24px; 
-  }
-  #calculateResult{
-   display: flex;
-   justify-content: center;
-   width :175px;
-   margin-top: 10px;
-   color: #fff; 
-   text-decoration: none; 
-   user-select: none; 
-   background: grey;
-   padding: .7em 1.5em; 
-   border-radius: 10px;
-
- } 
- .form-control
-{  
-    display: flex;
-    height: 33px;
-    border-radius: 10px;
-}
-  #count{
-      margin-top: 10px;
-  }
+ 
