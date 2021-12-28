@@ -1,23 +1,26 @@
 <!DOCTYPE html>
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style5.css" type="text/css">
-    <script defer src="js5.js"></script> 
-    <title>Калькулятор</title>
+    <link rel="stylesheet" href="style5.css">
+    <title>Задание 5</title>
 </head>
-<body style="background-color: rgba(0, 0, 0, 0.979);">
-    <div class="body">
-            <form class="container row">
-                <div class="form-group">
-                Калькулятор стоимости
-                <input name="price" type="text" class="form-control" id="price" placeholder="Введите цену">         
-                <input name="count" type="text" class="form-control" id="count" placeholder="Введите количество">         
-                <button  id="calculateResult" type="button" class="btn btn-dark container" onclick="return click1();">Узнать</button> 
-                </div>
-            </form>   
-            Результат: 
-        <div class="result" id="result"></div>
-     </div> 
+<body>
+    <h1>Калькулятор</h1>
+    <form>
+        <p>
+            Введите цену товара:
+            <input type="text" name ="price" > 
+        </p>
+        <p>
+            Введите нужное количество товара: 
+            <input type="text" name ="quantity"  >
+        </p>
+        <button id = "result">
+            Расчитать
+        </button>
+    </form>
+    <script src="5.js"></script>
 </body>
-</html> 
+</html>
